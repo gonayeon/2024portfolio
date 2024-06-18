@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(/static/font/Montserrat/Montserrat-Thin.ttf) format('TrueType');
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(/static/font/Montserrat/Montserrat-ExtraLight.ttf) format('TrueType');
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(/static/font/Montserrat/Montserrat-Light.ttf) format('TrueType');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(/static/font/Montserrat/Montserrat-Regular.ttf) format('TrueType');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(/static/font/Montserrat/Montserrat-Medium.ttf) format('TrueType');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(/static/font/Montserrat/Montserrat-SemiBold.ttf) format('TrueType');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(/static/font/Montserrat/Montserrat-Bold.ttf) format('TrueType');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(/static/font/Montserrat/Montserrat-ExtraBold.ttf) format('TrueType');
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(/static/font/Montserrat/Montserrat-Black.ttf) format('TrueType');
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'SUIT';
+    src: url(/static/font/SUIT/SUIT-Thin.ttf) format('TrueType');
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'SUIT';
+    src: url(/static/font/SUIT/SUIT-ExtraLight.ttf) format('TrueType');
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'SUIT';
+    src: url(/static/font/SUIT/SUIT-Light.ttf) format('TrueType');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'SUIT';
+    src: url(/static/font/SUIT/SUIT-Regular.ttf) format('TrueType');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'SUIT';
+    src: url(/static/font/SUIT/SUIT-Medium.ttf) format('TrueType');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'SUIT';
+    src: url(/static/font/SUIT/SUIT-SemiBold.ttf) format('TrueType');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'SUIT';
+    src: url(/static/font/SUIT/SUIT-Bold.ttf) format('TrueType');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'SUIT';
+    src: url(/static/font/SUIT/SUIT-ExtraBold.ttf) format('TrueType');
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'Meongi';
+    src: url(/static/font/Meongi/CafeMeongi.ttf) format('TrueType');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'PPRadioGrotesk';
+    src: url(/static/font/PPRadioGrotesk/PPRadioGrotesk-Ultralight.otf) format('opentype');
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'PPRadioGrotesk';
+    src: url(/static/font/PPRadioGrotesk/PPRadioGrotesk-Regular.otf) format('opentype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'PPRadioGrotesk';
+    src: url(/static/font/PPRadioGrotesk/PPRadioGrotesk-Black.otf) format('opentype');
+    font-weight: 900;
+}
+
+@layer base {
+    body {
+        @apply font-basic bg-black text-white;
+    }
+}
+@layer components {
+    .flex-center { 
+        @apply flex justify-center items-center;
+    }
+    .transition-basic {
+        @apply transition-all duration-500 ease-in-out;
+    }
+}
